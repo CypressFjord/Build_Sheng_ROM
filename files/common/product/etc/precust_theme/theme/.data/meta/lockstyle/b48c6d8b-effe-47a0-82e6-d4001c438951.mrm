@@ -1,0 +1,74 @@
+{
+  "localId": "b48c6d8b-effe-47a0-82e6-d4001c438951",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "7eb7a226bbe30dc7f91c9d3ffdc3c5588e1ccdd7",
+  "platform": 17,
+  "size": 6105318,
+  "updatedTime": 0,
+  "version": "3.2",
+  "authors": {
+    "zh_HK": "小米主題",
+    "zh_TW": "小米主題",
+    "zh_CN": "小米主题",
+    "fallback": "小米主题",
+    "en_US": "Xiaomi Themes"
+  },
+  "designers": {
+    "zh_HK": "小米主題",
+    "zh_TW": "小米主題",
+    "zh_CN": "小米主题",
+    "fallback": "小米主题",
+    "en_US": "Xiaomi Themes"
+  },
+  "titles": {
+    "zh_CN": "REDMI Pad 2 Pro 哈利·波特版主题",
+    "fallback": "REDMI Pad 2 Pro 哈利·波特版主题",
+    "en_US": "REDMI Pad 2 Pro Special Edition Featuring the Harry Potter Theme"
+  },
+  "descriptions": {
+    "zh_CN": "为你呈现情怀满满的哈利·波特专属定制主题，深度融合电影中的原版魔法元素，打造专属于学霸赫敏的壁纸，守护神发光魔法⻛格定制图标和惊喜定制小部件。让你在霍格沃茨城堡的光影里，用魔法元素点亮学习之路。",
+    "fallback": "为你呈现情怀满满的哈利·波特专属定制主题，深度融合电影中的原版魔法元素，打造专属于学霸赫敏的壁纸，守护神发光魔法⻛格定制图标和惊喜定制小部件。让你在霍格沃茨城堡的光影里，用魔法元素点亮学习之路。",
+    "en_US": "Experience nostalgia with the custom Harry Potter theme—featuring wallpapers dedicated to the studious Hermione, glowing Patronus-style magical icons, and custom widgets that pull inspiration directly from the magical elements in the film series. Step into the Wizarding World and let its magic illuminate your learning adventure."
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_lockscreen_h_0.jpg",
+      "preview_lockscreen_v_0.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_lockscreen_h_0.jpg",
+      "preview_lockscreen_v_0.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "0043d072-f7b5-45cc-a8ca-ba8874e06c5f",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": "/product/etc/precust_theme/theme/.data/rights/theme/8f3c146c4ebee7a89e2545f16e2f34d04d55f10e.mra",
+  "screenRatio": null,
+  "supportHomeSearchBar": false,
+  "packageVersion": null,
+  "packageName": null,
+  "officialIcons": false,
+  "iconsCount": null,
+  "fontWeight": null,
+  "price": -1,
+  "isBackUpVersion": false,
+  "themeType": 0,
+  "miuiAdapterVersion": "3.2"
+}

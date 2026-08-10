@@ -1,0 +1,109 @@
+{
+  "title": "萌宠",
+  "titleResId": "wallpaper_group_pets_title",
+  "cardType": 1,
+  "count": 9,
+  "slideCount": 9,
+  "randomOrder": false,
+  "wallpapers": [
+    {
+      "thumbPath": "./Pets01.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/ea028184b0e938414675622d8b2a9841",
+      "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/05705f6a87f8443c08fe448add580ece0e9ece927",
+      "fileSizeInKB": "44836838",
+      "productUuid": "1c6b3966-1288-4d7f-afcd-608376cfe103",
+      "onlineId": "779e8aa0-1fea-4132-bcef-9cd5eaf12405"
+    },
+    {
+      "thumbPath": "./Pets02.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/9e98afac0aece1e9505e62e42846f94b",
+      "downloadPath": "https://f6.market.xiaomi.com/download/ThemeMarket/084c1fabd7b964aa3a408a1e1178a1de790d3fbee",
+      "fileSizeInKB": "47395535",
+      "productUuid": "92b34dc1-b085-4d1c-be08-541b1457ba24",
+      "onlineId": "a457563f-e5a4-4859-963a-bbfcc41cd1c4"
+    },
+    {
+      "thumbPath": "./Pets03.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/ac5155d8c0b809efcc21a26b2ea90bbb",
+      "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/013b007e0bc864388931a597ac2014b291972258c",
+      "fileSizeInKB": "45994805",
+      "productUuid": "353ec3c5-e6ab-4809-a717-c1a8c7e73444",
+      "onlineId": "830f31e9-886c-48f7-bca1-619090da2e55"
+    },
+    {
+      "thumbPath": "./Pets04.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/175a46eea900022494b12125b24e6d63",
+      "downloadPath": "https://f7.market.xiaomi.com/download/ThemeMarket/080a8c304e06d4fea960de5cb56bb4dc8b67e0994",
+      "fileSizeInKB": "44518312",
+      "productUuid": "08fb8495-cd7b-4ab3-a0a4-6903108212be",
+      "onlineId": "d737a069-2976-4aa3-8dd3-c252f209eb74"
+    },
+    {
+      "thumbPath": "./Pets05.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/544c089426fd8a9161b0af9e177b0899",
+      "downloadPath": "https://f6.market.xiaomi.com/download/ThemeMarket/049fb9b3983174ccfb12841486a39f3ba5e7721cd",
+      "fileSizeInKB": "46728853",
+      "productUuid": "4f7d0f57-57f1-4001-9b96-4cca4c1202fa",
+      "onlineId": "55825d7d-1720-40a8-963f-5a4ba73fa161"
+    },
+    {
+      "thumbPath": "./Pets06.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/d3e89bf6204a0d63db05c547697b1dc2",
+      "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/0b738d1826ba948c8841e6b0e271d868c3398d6c4",
+      "fileSizeInKB": "36361068",
+      "productUuid": "efb12b4c-2cb5-41ba-9d56-559c7d80a5f8",
+      "onlineId": "b609138e-ea3d-4eaf-a642-695513573c96"
+    },
+    {
+      "thumbPath": "./Pets07.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/163ba8dd8c499c15dd58c3e4df9d44db",
+      "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/040c919972d3c4d15a593559c71ab6f6904510b7a",
+      "fileSizeInKB": "32705829",
+      "productUuid": "e8017e49-0c12-44ff-8023-3504b91d263e",
+      "onlineId": "1e7af2a5-a55e-40f9-a9be-a33dc0e04d2a"
+    },
+    {
+      "thumbPath": "./Pets08.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/52a3b5260852050bd373c8affae5c369",
+      "downloadPath": "https://f7.market.xiaomi.com/download/ThemeMarket/0f49f6975969047e1987ae15ead438fc111f763d5",
+      "fileSizeInKB": "45027934",
+      "productUuid": "61a078e9-5f39-4844-b8f3-df51a09c67ae",
+      "onlineId": "fdc295b7-335d-4e45-9fb6-2610cacd7bc2"
+    },
+    {
+      "thumbPath": "./Pets09.jpg",
+      "originPath": "",
+      "type": "videowallpaper",
+      "isSupportLoop": "false",
+      "previewPath": "https://thm.w.xk.miui.com/3ad2205e7660f25bfe0d67647d6fe7ce",
+      "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/09982048415bb4c378daad2eb28844f9fc72e1c35",
+      "fileSizeInKB": "32828297",
+      "productUuid": "48c14f33-5b62-49a1-ab39-8ffbe27adb0a",
+      "onlineId": "19df05d8-867b-4d98-8885-03cd2e2d658f"
+    }
+  ]
+}
