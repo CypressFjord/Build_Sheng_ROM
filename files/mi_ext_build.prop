@@ -3,8 +3,6 @@
 persist.sys.support_ultra_hdr=true
 #超分辨率增强
 debug.config.media.video.ais.support=true
-#声音视效
-ro.vendor.audio.sfx.audiovisual=true
 #快充加速
 persist.vendor.accelerate.charge=true
 #高精度定位
