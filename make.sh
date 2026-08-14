@@ -442,6 +442,20 @@ add_module_dep "/vendor/lib/modules/android13-5.15_moon_kshrink_slabd.ko:"
 add_module_dep "/vendor/lib/modules/android13-5.15_moon_look_around.ko:"
 add_module_dep "/vendor/lib/modules/android13-5.15_moon_mapped_protect.ko:"
 add_module_dep "/vendor/lib/modules/android13-5.15_moon_vmscan.ko:"
+echo "/vendor_dlkm/lib/modules/android13-5\.15_mi_sw_sync\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_mi_sw_sync.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_cache\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_cache.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_kshrink_lruvecd\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_kshrink_lruvecd.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_kshrink_slabd\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_kshrink_slabd.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_look_around\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_look_around.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_mapped_protect\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_mapped_protect.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
+echo "/vendor_dlkm/lib/modules/android13-5\.15_moon_vmscan\.ko u:object_r:vendor_file:s0" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_file_contexts
+echo "vendor_dlkm/lib/modules/android13-5.15_moon_vmscan.ko 0 0 0644" | sudo tee -a "$GITHUB_WORKSPACE"/images/config/vendor_dlkm_fs_config
 echo -e "${Green}- vendor_dlkm分区添加内核模块成功添加${NC}"
 End_Time vendor_dlkm分区添加内核模块
 End_Time 内置水龙优化
