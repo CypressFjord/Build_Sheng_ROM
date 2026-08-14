@@ -363,14 +363,19 @@ echo -e "${Red}- 开始处理cpq调速器${NC}"
 Start_Time
 RC_FILE="$GITHUB_WORKSPACE/images/vendor/etc/init/hw/init.qti.kernel.rc"
 ANCHOR='write /sys/block/sda/queue/scheduler cpq'
-grep -qF "$ANCHOR" "$RC_FILE" || echo -e "${Yellow}- 警告: 未找到cpq锚点${NC}"
-sed -i "/${ANCHOR//\//\\/}/a\\
+if [ -f "$RC_FILE" ] && grep -qF 'iosched/read_expire 4' "$RC_FILE"; then
+    echo -e "${Yellow}- 跳过: cpq调速器参数已处理过${NC}"
+elif [ -f "$RC_FILE" ] && grep -qF "$ANCHOR" "$RC_FILE"; then
+    sed -i "/${ANCHOR//\//\\/}/a\\
     write /sys/block/sda/queue/iosched/read_expire 4\\
     write /sys/block/sda/queue/iosched/prio_aging_expire 200\\
     write /sys/block/sda/queue/iosched/write_expire 8\\
     write /sys/block/sda/queue/iosched/io_threshold 256\\
     write /sys/block/sda/queue/iosched/async_depth 62" "$RC_FILE"
-echo -e "${Green}- 成功处理cpq调速器${NC}"
+    echo -e "${Green}- 成功处理cpq调速器${NC}"
+else
+    echo -e "${Yellow}- 警告: 未找到cpq锚点或文件不存在${NC}"
+fi
 End_Time 处理cpq调速器
 #插入mi_sw_sync权限设置（仅第一个）
 echo -e "${Red}- 开始插入mi_sw_sync权限设置（仅第一个）${NC}"
