@@ -548,7 +548,6 @@ rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/kidspace
 rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/MiGameCenterSDKService
 rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/MiniGameService
 rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/MIUIBrowserPad
-rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/QuickSearchBoxPadMIUI15
 End_Time 精简apk
 End_Time 功能修复
 ###功能修复结束
