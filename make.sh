@@ -361,7 +361,7 @@ Start_Time
 #处理cpq调速器
 echo -e "${Red}- 开始处理cpq调速器${NC}"
 Start_Time
-RC_FILE="$GITHUB_WORKSPACE/images/vendor/etc/init/hw/init.qti.kernel.rc"
+RC_FILE="$GITHUB_WORKSPACE"/images/vendor/etc/init/hw/init.qti.kernel.rc
 ANCHOR='write /sys/block/sda/queue/scheduler cpq'
 if [ -f "$RC_FILE" ] && grep -qF 'iosched/read_expire 4' "$RC_FILE"; then
     echo -e "${Yellow}- 跳过: cpq调速器参数已处理过${NC}"
@@ -380,7 +380,7 @@ End_Time 处理cpq调速器
 #插入mi_sw_sync权限设置（仅第一个）
 echo -e "${Red}- 开始插入mi_sw_sync权限设置（仅第一个）${NC}"
 Start_Time
-TARGET_RC="$GITHUB_WORKSPACE/images/vendor/etc/init/hw/init.target.rc"
+TARGET_RC="$GITHUB_WORKSPACE"/images/vendor/etc/init/hw/init.target.rc
 ANCHOR='on post-fs-data'
 grep -qF "$ANCHOR" "$TARGET_RC" || echo -e "${Yellow}- 警告: 未找到post-fs-data锚点${NC}"
 sed -i "1,/${ANCHOR}/!b; /${ANCHOR}/a\\
@@ -391,7 +391,7 @@ End_Time 插入mi_sw_sync权限设置（仅第一个）
 #关闭F2FS iostat减少读写时锁争用
 echo -e "${Red}- 开始关闭F2FS iostat减少读写时锁争用${NC}"
 Start_Time
-INIT_RC="$GITHUB_WORKSPACE/images/system/system/etc/init/hw/init.rc"
+INIT_RC="$GITHUB_WORKSPACE"/images/system/system/etc/init/hw/init.rc
 grep -qF "iostat" "$INIT_RC" || echo -e "${Yellow}- 警告: 未找到iostat相关行${NC}"
 sed -i '/write \/dev\/sys\/fs\/by-name\/userdata\/iostat_period_ms 1000/d' "$INIT_RC"
 sed -i '/write \/dev\/sys\/fs\/by-name\/userdata\/iostat_enable 1/d' "$INIT_RC"
