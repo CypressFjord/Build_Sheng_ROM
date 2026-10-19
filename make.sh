@@ -397,24 +397,6 @@ sed -i '/write \/dev\/sys\/fs\/by-name\/userdata\/iostat_period_ms 1000/d' "$INI
 sed -i '/write \/dev\/sys\/fs\/by-name\/userdata\/iostat_enable 1/d' "$INIT_RC"
 echo -e "${Green}- 成功关闭F2FS iostat减少读写时锁争用${NC}"
 End_Time 关闭F2FSiostat减少读写时锁争用
-#Amktiao的ZRAM压缩算法优化
-Start_Time
-echo -e "${Red}- 开始Amktiao的ZRAM压缩算法优化${NC}"
-zram_rc="$GITHUB_WORKSPACE"/images/system/system/etc/init/hw/init.rc
-perfinit="$GITHUB_WORKSPACE"/images/system_ext/etc/perfinit.conf
-if [ -f "$zram_rc" ] && ! grep -qF 'Amktiao ZRAM opt Add' "$zram_rc"; then
-    sed -i '/# System server manages zram writeback/a\
-    # Amktiao ZRAM opt Add\
-    write /proc/sys/vm/page-cluster 0\
-    # Amktiao ZRAM opt End' "$zram_rc" && echo -e "${Green}- init.rc已成功修改${NC}"
-fi
-if [ -f "$perfinit" ] && ! grep -q '"comp_algo"' "$perfinit"; then
-    sed -i '/"swap_on": 1,/{p; s/.*/        "comp_algo": "lz4",/}' "$perfinit"
-    python3 -c "import json; json.load(open('$perfinit'))" 2>/dev/null \
-        && echo -e "${Green}- perfinit.conf已成功修改${NC}" \
-        || echo -e "${Yellow}- 严重警告: JSON校验失败${NC}"
-fi
-End_Time Amktiao的ZRAM压缩算法优化
 #vendor_dlkm分区添加内核模块
 echo -e "${Red}- 开始vendor_dlkm分区添加内核模块${NC}"
 Start_Time
